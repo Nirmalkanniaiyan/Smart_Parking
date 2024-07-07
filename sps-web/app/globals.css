@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: #212020;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+  }
+}
+
+* {
+  transition: all 0.2s ease;
+  font-family: "Trebuchet MS", sans-seri f;
+}
+
+body{
+  background: linear-gradient(135deg, rgba(43, 30, 56, 1), rgb(5, 33, 55));
+}
